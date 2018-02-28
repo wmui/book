@@ -43,48 +43,23 @@
 | handheld | 手持设备（小屏幕） |
 | projection | 投影机 |
 | print | 打印预览模式 / 打印页面 |
-| screen |  |
-| tty |  |
+| screen | 计算机屏幕 |
+| tty | 电传打字机以及使用更宽字符网格的类似媒介 |
 | tv | 电视类型设备 |
 
 ##### 值
 
 | 值 | 描述 |
 | :--- | :--- |
-| width | 目标显示区域的宽度（可使用min-width, max-width），例如：media = "screen and  \(min-width: 300px\) |
-|  |  |
-|  |  |
-|  |  |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+| width | 目标显示区域的宽度（可使用min-, max-前缀），例如：media = "screen and  \(min-width: 300px\) |
+| height | 目标显示区域的高度（可使用min-, max-前缀），例如：media = "screen and \(min-height: 300px\)" |
+| device-width | 目标显示器的宽度（可使用min-, max-前缀），例如：media = "screen and \(device-width: 300px\)" |
+| device-height | 目标显示器高度 （可使用min-, max-前缀），例如：media = "screen and \(device-height: 300px \)" |
+| orientation | 目标显示器取向（可能值：portrait, landspace，例如：media = "all and \(orientation: landspace\)" |
+| aspect-ratio | 目标显示区域的宽高比（可使用min-, max-前缀）,例如：media = "screen and \(aspect-ratio: 16 / 9\)" |
+| device-aspect-ratio | 目标显示区域的宽高比（可使用min-, max-前缀）,例如：media = "screen and \(\)" |
+| color |  |
+| color-index |  |
 
 
 
